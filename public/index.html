@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="js/style.css" />
     <title>Portfolio</title>
-  
   </head>
   <body>
     <nav class="bg-black">
@@ -41,9 +41,7 @@
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
-              <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 rounded-2xl h-6">
-                My Portfolio
-              </span>
+              <span class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 rounded-2xl h-6"> My Portfolio </span>
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
@@ -70,53 +68,145 @@
       </div>
     </nav>
 
-<!-- header image -->
-<section id="intro">
-  <div class="header-image bg-zinc-900 size-full grid grid-flow-col gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 relative">
-    <div class="flex justify-center md:justify-start">
-      <img src="./img/profilerico-pic.png" alt="rico-image" class="w-full h-auto object-cover bg-blue-950 rounded-2xl">
-      <div class="absolute inset-0 flex flex-col justify-center items-center ml-20 mt-10">
-        <p class="text-white bg-gradient-to-r from-indigo-600 to-pink-500 px-2 py-1 rounded-2xl text-base sm:text-lg md:text-xl">Hallo, saya Muhammad Ricoasmara</p>
-        <p class="text-white text-2xl sm:text-3xl md:text-7xl font-bold mt-4">"Software Engineer</p>
-        <p class="text-white text-2xl sm:text-3xl md:text-7xl font-bold mt-2">Web Development"</p>
+    <!-- header image -->
+    <section id="intro">
+      <div class="header-image bg-zinc-900 size-full grid grid-flow-col gap-4 p-4 sm:grid-cols-1 md:grid-cols-2 relative">
+        <div class="flex justify-center md:justify-start">
+          <img src="./img/profilerico-pic.png" alt="rico-image" class="w-full h-auto object-cover bg-blue-950 rounded-2xl" />
+          <div class="absolute inset-0 flex flex-col justify-center items-center ml-20 mt-10">
+            <p class="text-white bg-gradient-to-r from-indigo-600 to-pink-500 px-2 py-1 rounded-2xl text-base sm:text-lg md:text-xl">Hallo, saya Muhammad Ricoasmara</p>
+            <p class="text-white text-2xl sm:text-3xl md:text-7xl font-bold mt-4">"Software Engineer</p>
+            <p class="text-white text-2xl sm:text-3xl md:text-7xl font-bold mt-2">Web Development"</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section id="aboutme">
-<div class="md:container md:mx-auto">
-  <p class="text-black text-2xl sm:text-3xl md:text-1xl font-bold mt-4">Tentang Saya</p>
-    <div class="h-0.5 mt-2 max-w-32 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4 about-me__content" data-aos="fade-up">
-    <div class="about-me__text">
-        <p class="lead text-xl text-justify ">
-            Saya adalah lulusan Sarjana Informatika dari Universitas Gunadarma dengan Indeks Prestasi Kumulatif (IPK) 3.53/4.00. Saya memiliki keahlian dalam bidang Pengembangan Rekayasa Perangkat Lunak (Software Engineering) dan Rekayasa Jaringan (Network Engineering). 
-        </p>
-    </div>
-    <div class="about-me__text">
-        <p class="lead text-xl text-justify">
-            Selain itu, saya memiliki kemampuan berkomunikasi yang baik, kemampuan meneliti, bekerja sama dalam tim, serta berdedikasi tinggi terhadap pekerjaan.
-        </p>
-    </div>
-    <div class="flex items-center">
-      <a href="#" class="bg-black rounded-md text-fuchsia-100 px-3 py-2 mt-5 flex justify-center">
-        Download CV
-      </a>
-    </div>
+    <section id="aboutme">
+      <div class="md:container md:mx-10">
+        <p class="text-black text-2xl sm:text-3xl md:text-1xl font-bold mt-4">Tentang Saya</p>
+        <div class="h-0.5 mt-2 max-w-32 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 about-me__content" data-aos="fade-up">
+          <div class="about-me__text">
+            <p class="lead text-xl text-justify">
+              Saya adalah lulusan Sarjana Informatika dari Universitas Gunadarma dengan Indeks Prestasi Kumulatif (IPK) 3.53/4.00. Saya memiliki keahlian dalam bidang Pengembangan Rekayasa Perangkat Lunak (Software Engineering) dan Rekayasa
+              Jaringan (Network Engineering).
+            </p>
+          </div>
+          <div class="about-me__text">
+            <p class="lead text-xl text-justify">Selain itu, saya memiliki kemampuan berkomunikasi yang baik, kemampuan meneliti, bekerja sama dalam tim, serta berdedikasi tinggi terhadap pekerjaan.</p>
+          </div>
+          <div class="flex items-center">
+            <a href="#" class="bg-black rounded-md text-fuchsia-100 px-3 py-2 mt-5 flex justify-center"> Download CV </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="md:container md:mx-10">
+        <p class="text-black text-2xl sm:text-3xl md:text-1xl font-bold mt-4">Project</p>
+        <div class="h-0.5 mt-2 max-w-32 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+        <p>Beberapa project yang sudah dikerjakan sebagai berikut</p>
+      </div>
     
-</div>
-</div>
-</section>
+      <div class="md:container md:mx-auto mt-8 flex justify-center">
+        <div class="relative w-full max-w-4xl h-4/6 rounded-md overflow-hidden border border-sky-500" id="carousel">
+          <!-- Slide 1 -->
+          <div class="carousel-slide active w-full h-full bg-blue-500 flex items-center justify-center text-white text-2xl relative">
+            <img src="img/imgproject/presensifhci.png" class="w-full h-full object-cover">
+            <!-- Deskripsi Slide -->
+            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 py-4 px-6 text-center">
+              <h3 class="text-lg font-bold">Presensi CFO dan CEO FHCI BUMN</h3>
+              <p class="text-sm"></p>
+            </div>
+          </div>
 
-<section>
-  <div class="md:container md:mx-auto">
+          <div class="carousel-slide w-full h-full bg-red-500 items-center justify-center text-white text-2xl hidden relative">
+            <img src="img/imgproject/nocash.png" class="w-full h-4/6 object-cover">
+            <!-- Deskripsi Slide -->
+            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 py-4 px-6 text-center">
+              <h3 class="text-lg font-bold">No Cash Project</h3>
+              <p class="text-sm">No Cash adalah aplikasi pencatatan hutang berbasis mobile untuk membantu pengguna dalam pencatatan dan komunikasi transaksi hutang piutang.</p>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-slide w-full h-full bg-green-500 items-center justify-center text-white text-2xl hidden relative">
+            <img src="img/imgproject/sahabatsehat.png" class="w-full h-full object-cover">
+            <!-- Deskripsi Slide -->
+            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 py-4 px-6 text-center">
+              <h3 class="text-lg font-bold">Sahabat Sehat</h3>
+              <p class="text-sm">Aplikasi “Sahabat Sehat” memberikan solusi bagi pengguna yang sering mengalami kesulitan mobilitas yang mempengaruhi status fisik dan fungsionalnya serta menghambat aksesnya untuk mendapatkan pelayanan kesehatan.</p>
+            </div>
+          </div>
+    
+          <!-- Slide 3 -->
+          <div class="carousel-slide w-full h-full bg-red-500 items-center justify-center text-white text-2xl hidden relative">
+            <img src="img/imgproject/museumbahari.png" class="w-full h-4/6 object-cover">
+            <!-- Deskripsi Slide -->
+            <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 py-4 px-6 text-center">
+              <h3 class="text-lg font-bold">Manajemen Data Perpustakaan Museum Bahari</h3>
+              <p class="text-sm">Manajemen Data Perpustakaan Museum Bahari adalah aplikasi berbasis website untuk mempermudah pengelolaan data perpustakaan Museum Bahari</p>
+            </div>
+          </div>
 
+          <!-- slide 4 -->
+         
+    
+          <!-- Buttons for previous/next -->
+          <button class="absolute left-2 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full" id="prev">
+            &#10094;
+          </button>
+          <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full" id="next">
+            &#10095;
+          </button>
+    
+          <!-- Indicators -->
+          <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            <span class="indicator h-3 w-3 bg-black rounded-full opacity-50 cursor-pointer"></span>
+            <span class="indicator h-3 w-3 bg-black rounded-full opacity-50 cursor-pointer"></span>
+            <span class="indicator h-3 w-3 bg-black rounded-full opacity-50 cursor-pointer"></span>
+            <span class="indicator h-3 w-3 bg-black rounded-full opacity-50 cursor-pointer"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
   
-  </div>
-</section>
-
-
-
+    <script>
+      const slides = document.querySelectorAll('.carousel-slide');
+      const indicators = document.querySelectorAll('.indicator');
+      let currentSlide = 0;
+  
+      document.getElementById('next').addEventListener('click', () => {
+          goToSlide(currentSlide + 1);
+      });
+  
+      document.getElementById('prev').addEventListener('click', () => {
+          goToSlide(currentSlide - 1);
+      });
+  
+      indicators.forEach((indicator, index) => {
+          indicator.addEventListener('click', () => {
+              goToSlide(index);
+          });
+      });
+  
+      function goToSlide(slideIndex) {
+          slides[currentSlide].classList.add('hidden');
+          slides[currentSlide].classList.remove('active');
+          indicators[currentSlide].classList.remove('bg-blue-500');
+          indicators[currentSlide].classList.add('opacity-50');
+  
+          currentSlide = (slideIndex + slides.length) % slides.length;
+  
+          slides[currentSlide].classList.remove('hidden');
+          slides[currentSlide].classList.add('active');
+          indicators[currentSlide].classList.add('bg-blue-500');
+          indicators[currentSlide].classList.remove('opacity-50');
+      }
+  </script>
   </body>
 </html>
